@@ -6,5 +6,6 @@ def product_details(product_id, name, quantity, price):
         f"Price: {price}\n"
     )
     return result
-if __name__ = "__main__":
+
+if __name__ == "__main__":
     print(product_details(101, "iPhone", 1, 155000))
