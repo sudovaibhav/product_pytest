@@ -7,4 +7,5 @@ def test_product_details():
         "Quantity: 1\n"
         "Price: 155000\n"
     )
+
     assert product_details(101, "iPhone", 1, 155000) == expected_output
